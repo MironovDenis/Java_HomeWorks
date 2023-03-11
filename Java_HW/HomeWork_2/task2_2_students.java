@@ -25,8 +25,8 @@ public class task2_2_students {
                 new FileReader("D:\\GEEKBRAINS\\JAVA\\Java_HW\\HomeWork_2\\task2_2_data.txt"))) {
             String line;
             while ((line = bReader.readLine()) != null) {
-                String line1 = line.replace("{", "").replace("[", "");
-                String line2 = line1.replace("}", "").replace("]", "");
+                String line1 = line.replace("{", "").replace("}", "");
+                String line2 = line1.replace("[", "").replace("]", "");
                 StringBuilder result = new StringBuilder();
                 String[] parts = line2.split(",");
                 for (int i = 0; i < parts.length; i++) {
