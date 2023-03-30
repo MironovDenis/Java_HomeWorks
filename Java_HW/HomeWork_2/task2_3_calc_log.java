@@ -49,8 +49,10 @@ public class task2_3_calc_log {
             }
             FileHandler fh;   
             try {
-                fh = new FileHandler("Calc_Log.log");   
+                fh = new FileHandler("Calc_Log.log", true);   
                 logger.addHandler(fh);
+                SimpleFormatter sFormatter = new SimpleFormatter();
+                fh.setFormatter(sFormatter);
                 logger.info("Результат вычисления: " + result);                
             } catch (Exception e) {
                 System.out.println("Что-то пошло не так...");

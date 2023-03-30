@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2023-03-11T16:30:24.454240Z</date>
-  <millis>1678552224454</millis>
-  <nanos>240000</nanos>
-  <sequence>0</sequence>
-  <logger>HomeWork_2.task2_3_calc_log</logger>
-  <level>INFO</level>
-  <class>HomeWork_2.task2_3_calc_log</class>
-  <method>main</method>
-  <thread>1</thread>
-  <message>Результат вычисления: 15</message>
-</record>
-</log>
+мар. 29, 2023 9:52:43 PM HomeWork_2.task2_3_calc_log main
+INFO: Результат вычисления: 5
+мар. 29, 2023 9:53:07 PM HomeWork_2.task2_3_calc_log main
+INFO: Результат вычисления: 16
